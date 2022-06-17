@@ -1,0 +1,19 @@
+{
+  "name": "toxin-metalamp",
+  "version": "1.0.0",
+  "description": "pet-project by metalamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkozhevnikov2323/toxin-metalamp.git"
+  },
+  "author": "Maksim Kozhevnikov mkozhevnikov23@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkozhevnikov2323/toxin-metalamp/issues"
+  },
+  "homepage": "https://github.com/mkozhevnikov2323/toxin-metalamp#readme"
+}
