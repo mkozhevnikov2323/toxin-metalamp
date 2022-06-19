@@ -1,25 +1,51 @@
 @font-face {
-  font-family: 'Prompt';
-  src: url('~Fonts/Prompt-Regular.ttf');
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
+  src: url("~Fonts/Montserrat-Regular.ttf") format("truetype"),
+      url("~Fonts/Montserrat-Regular.otf") format("opentype"),
+      url("~Fonts/Montserrat-Regular.woff") format("woff"),
+      url("~Fonts/Montserrat-Regular.woff2") format("woff2");
 }
 
-.h1 {
-  color: aqua;
-  background-image: url('~Images/japanese-garden.png');
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("~Fonts/Montserrat-Bold.ttf") format("truetype"),
+      url("~Fonts/Montserrat-Bold.otf") format("opentype"),
+      url("~Fonts/Montserrat-Bold.woff") format("woff"),
+      url("~Fonts/Montserrat-Bold.woff2") format("woff2");
 }
-div {
-  background-color: bisque;
-  box-shadow: 10px 10px 40px 5px black;
 
-  p {
-    color: chocolate;
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
+.color {
+  width: 281px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  &__example {
+    width: 70px;
+    height: 70px;
+    background: #1f2041;
+    border-radius: 6px;
+  }
+
+  &__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  &__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
   }
 }
