@@ -1,5 +1,3 @@
-import './styles/index.css';
-
 const numbers = [2, 3, 5];
 
 // Стрелочная функция. Не запнётся ли на ней Internet Explorer?
