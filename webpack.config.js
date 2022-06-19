@@ -3,7 +3,8 @@ const PugPlugin = require('pug-plugin');
 
 module.exports = {
   entry: {
-    index: './src/colors-and-type.pug',
+    'colors-and-type': './src/colors-and-type.pug',
+    'form-elements': './src/form-elements.pug',
   },
 
   output: {
