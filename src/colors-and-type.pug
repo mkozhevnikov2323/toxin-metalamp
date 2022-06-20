@@ -1,12 +1,10 @@
+extends blocks/color/color
+
 html
   head
     link(rel="icon" type="image/png" href=require('~Images/favicon.png'))
     link(href=require('./styles/main.scss') rel='stylesheet')
   body
-    .color
-      .color__example
-      .color__description
-        .color__title Dark Shade 100%
-        .color__subtitle #1F2041
+    block color
 
     script(src=require('./main.js'))
